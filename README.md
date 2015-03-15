@@ -9,6 +9,8 @@ Useful for making games by constraining what you have to work with!
 
 The default interface is a terminal window, but this API should be portable to other interfaces!
 
+![example.gif](http://brycebaril.com/example.gif)
+
 ```javascript
 var Game = require("./gamekit")
 
