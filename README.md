@@ -12,7 +12,7 @@ The default interface is a terminal window, but this API should be portable to o
 ![example.gif](http://brycebaril.com/example.gif)
 
 ```javascript
-var Game = require("./gamekit")
+var Game = require("gamekit")
 
 var word = "HI"
 var count = 0

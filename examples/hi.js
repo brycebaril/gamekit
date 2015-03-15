@@ -1,6 +1,6 @@
 var Game = require("../gamekit")
 
-var word = "HI"
+var word = "RUTH"
 var count = 0
 
 // A function that will move the word somewhere random on the screen
@@ -20,8 +20,6 @@ function move() {
 function update() {
   // Let's only do 20 "moves"
   if (count > 20) {
-    // Make sure we don't try to move after we've stopped
-    this.unschedule("move")
     // end the "game"
     this.stop()
   }
