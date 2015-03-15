@@ -1,0 +1,37 @@
+{
+  "name": "gamekit",
+  "version": "1.0.0",
+  "description": "A rectangular play area for simple text-based games, inspired by a childhood with a programmable graphing calculator.",
+  "main": "gamekit.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "gamekit-screen-cli": "~2.3.1",
+    "keypress": "~0.2.1",
+    "raf": "~2.0.4",
+    "sorted-map": "~0.1.8"
+  },
+  "devDependencies": {
+    "tape": "~3.5.0"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [
+    "game",
+    "text-based",
+    "terminal"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brycebaril/gamekit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brycebaril/gamekit/issues"
+  },
+  "homepage": "https://github.com/brycebaril/gamekit"
+}
