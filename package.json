@@ -1,6 +1,6 @@
 {
   "name": "gamekit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A rectangular play area for simple text-based games, inspired by a childhood with a programmable graphing calculator.",
   "main": "gamekit.js",
   "directories": {
